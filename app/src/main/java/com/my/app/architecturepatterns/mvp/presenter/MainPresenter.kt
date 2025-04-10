@@ -1,6 +1,7 @@
-package com.my.app.architecturepatterns.mvp
+package com.my.app.architecturepatterns.mvp.presenter
 
 import com.my.app.architecturepatterns.mvc.MainView
+import com.my.app.architecturepatterns.mvp.model.Model
 
 class MainPresenter(private val view: MainView) {
     fun onButtonClick(userTextname: String, userTextage: String) {
