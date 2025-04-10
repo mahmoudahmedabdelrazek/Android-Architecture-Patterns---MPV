@@ -6,7 +6,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import com.my.app.architecturepatterns.mvc.MainView
+import com.my.app.architecturepatterns.mvp.MainView
 import com.my.app.architecturepatterns.mvp.presenter.MainPresenter
 import com.my.app.architecturepatterns.mvp.R
 
